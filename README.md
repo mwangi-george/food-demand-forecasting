@@ -2,7 +2,7 @@
 
 An interactive R Shiny application for exploring weekly meal demand and generating center–meal forecasts. The project combines historical analysis, anomaly diagnostics, model comparison, uncertainty intervals, and CSV exports in an interactive interface.
 
-![](www/img/Screenshot 2026-10-01 at 09.06.47.png)
+![](www/img/img1.png)
 
 ## Key features
 
