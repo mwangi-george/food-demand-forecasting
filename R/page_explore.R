@@ -190,7 +190,7 @@ explore_page_server <- function(id, meals_df, iqr_alpha = 0.05, show_smooth_line
           .date_var = period, 
           .value = num_orders, 
           .color_var = year(period), 
-          .title = glue("Historical Demand for meal {input$meal} in center {input$center}"),
+          .title = glue("Historical Demand"),
           .y_lab = "Meal Orders",
           .smooth = show_smooth_line
         ) |> 
