@@ -88,6 +88,15 @@ about_page_ui <- function(id, meals_df) {
               "View source dataset",
               bsicons::bs_icon("arrow-up-right")
             ),
+            tags$a(
+              href = "https://github.com/mwangi-george/food-demand-forecasting",
+              target = "_blank",
+              rel = "noopener noreferrer",
+              class = "about-button about-button--primary",
+              bsicons::bs_icon("code-square"),
+              "View source code",
+              bsicons::bs_icon("arrow-up-right")
+            ),
             div(
               class = "about-hero__hint",
               bsicons::bs_icon("compass"),
